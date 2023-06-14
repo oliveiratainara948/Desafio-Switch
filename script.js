@@ -1,33 +1,19 @@
-let Nota
+let Fruta = "maçã";
 
-Nota = prompt("Qual Foi Sua Nota?")
-
-switch(Nota.toUpperCase()){
-    case"A":
-        alert("Excelente")
+switch(Fruta) {
+    case "maçã":
+        alert("Não vendemos esta fruta aqui")
         break;
     
-    case"B":
-        alert("Ótimo")
+    case "kiwi":
+        alert("Estamos com escassez de kiwis")
         break;
 
-    case"C":
-        alert("Bom")
-        break;
-
-    case"D":
-        alert("Regular")
-        break;
-
-    case"E":
-        alert("Ruim")
-        break;
-
-    case"F":
-        alert("Nos vemos de novo ano que vem...")
+    case "melancia":
+        alert("Aqui está, são 3 reais o quilo")
         break;
     
     default:
-        alert("Desculpe não conseguimos logalizar sua nota")
+        alert("Desculpe não temos mais opções de frutas")
         break;
 }
